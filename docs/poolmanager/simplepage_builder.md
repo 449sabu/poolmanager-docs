@@ -2,12 +2,12 @@
 id: 1
 title: Simple Pages Builder
 description: Simple Pages Builderは、Next.jsをベースとした静的サイトをVercelにホスティングできる一連の流れです。
-slug: /simplepage-builder
+slug: /simple-pages-builder
 ---
 
 ## 概要
 
-- Simplepage Builderは、Next.jsをベースとした静的サイトをVercelにホスティングできる一連の流れです。
+- Simple Pages Builderは、Next.jsをベースとした静的サイトをVercelにホスティングできる一連の流れです。
 
 ## 使い方
 ### 1. Githubからリポジトリをフォークする

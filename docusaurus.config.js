@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Ctool Docs',
+  title: 'PoolManager Docs',
   tagline: 'CIEL Stake Poolが提供しているツールのドキュメントです。',
   url: 'https://ctool-docs.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/Cardano-RGB_Logo-Icon-Blue.png',
+  favicon: 'img/cardano/Cardano-RGB_Logo-Icon-Blue.png',
   // favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
