@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/docusaurus/undraw_docusaurus_mountain.svg').default,
+    title: 'Cardanoステークプール',
+    Svg: require('@site/static/svg/top3.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        CIELは非常に小さいプールです。プロジェクトが良いなと感じたら委任や、SNS等でシェアしていただけると幸いです。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/docusaurus/undraw_docusaurus_tree.svg').default,
+    title: 'OSSツール開発',
+    Svg: require('@site/static/svg/top.svg').default,
+    // Svg: require('@site/static/img/docusaurus/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        開発プロジェクトはGithubで公開しています。 ユーザーのフィードバックを反映できるよう継続的な開発を目指しています。
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/docusaurus/undraw_docusaurus_react.svg').default,
+    title: 'ドキュメント',
+    Svg: require('@site/static/svg/top2.svg').default,
+    // Svg: require('@site/static/img/docusaurus/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        わかりやすいドキュメント作成を心がけています。  
+        ご不明な点や、改善のご要望はお気軽にご連絡ください。
       </>
     ),
   },
