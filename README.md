@@ -1,41 +1,20 @@
-# Website
+# <p align="center">Pool Manager Docs</p>
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<div align="center">
+    <a href='https://github.com/449sabu/poolmanager-docs/actions'>
+    <img src="https://img.shields.io/github/actions/workflow/status/449sabu/poolmanager-docs/deploy-docusaurus.yml?label=Deploy&style=for-the-badge&branch=main">
+  </a>
+  <a href='https://github.com/449sabu/poolmanager-docs/issues'>
+    <img src="https://img.shields.io/github/issues/449sabu/poolmanager-docs?label=Issues&style=for-the-badge">
+  </a>
+  <a href='https://github.com/449sabu/poolmanager-spb/stargazers'>
+    <img src="https://img.shields.io/github/stars/449sabu/poolmanager-spb?label=Stars&style=for-the-badge">
+  </a>
+    <a href='https://github.com/449sabu/poolmanager-docs/commit/main'>
+    <img src="https://img.shields.io/github/last-commit/449sabu/poolmanager-docs?style=for-the-badge">
+  </a>
+</div>
 
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<!-- [Pool Manager Docs](https://449sabu.github.io/poolmanager-docs/)   -->
+### 構成
+[Docusaurus 2](https://docusaurus.io/) を使用しています。  

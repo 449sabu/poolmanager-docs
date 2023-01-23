@@ -8,7 +8,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'PoolManager Docs',
   tagline: 'CIEL Stake Poolが提供しているツールのドキュメントです。',
-  // url: 'https://ctool-docs.vercel.app',
   url: 'https://449sabu.github.io/',
   baseUrl: '/poolmanager-docs/',
   onBrokenLinks: 'throw',
@@ -51,9 +50,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'CIEL',
+        title: 'CIEL Stake Pool',
         logo: {
-          alt: 'My Site Logo',
+          alt: '',
           src: 'img/logo.svg',
         },
         items: [

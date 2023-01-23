@@ -21,7 +21,7 @@ slug: /simple-pages-builder
 
 ## 使い方
 ### 1. Githubからリポジトリをフォークする
-- Githubリポジトリにアクセスし「Fork」をクリックする。  
+Githubリポジトリにアクセスし「Fork」をクリックする。  
 
 ![Fork_1](/img/poolmanager/spb_github_fork_1.png)  
 
