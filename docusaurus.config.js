@@ -8,15 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'PoolManager Docs',
   tagline: 'CIEL Stake Poolが提供しているツールのドキュメントです。',
-  url: 'https://ctool-docs.vercel.app',
-  baseUrl: '/',
+  // url: 'https://ctool-docs.vercel.app',
+  url: 'https://449sabu.github.io/',
+  baseUrl: '/poolmanager-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/cardano/Cardano-RGB_Logo-Icon-Blue.png',
-  // favicon: 'img/favicon.ico',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  favicon: 'img/favicon.ico',
+  trailingSlash: false,
   organizationName: '449sabu', // Usually your GitHub org/user name.
   projectName: 'poolmanager-docs', // Usually your repo name.
 
