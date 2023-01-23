@@ -53,6 +53,12 @@ slug: /simple-pages-builder
 
 ![Github_Actions_5](/img/poolmanager/github_Actions_4.png)  
 
+ビルド中はWorkflow名の左側のステータスが黄色く点滅します。  
+ビルドに成功するとステータスが緑色のチェックマークに変わります。
+
+成功のステータスを確認できたら作業は以上です。お疲れ様でした！
+
+![Github_Actions_6](/img/poolmanager/github_Actions_6.png)  
 
 :::tip サイトが構築される仕組み
 ForkしたSPBのリポジトリには Github Actions の Workflow というものが設定されています。  
@@ -61,6 +67,9 @@ Workflowとは「このタイミングでこの作業をしてください」と
 [#Github Actions](https://docs.github.com/ja/actions)　
 [#Workflow](https://docs.github.com/ja/actions/using-workflows/workflow-syntax-for-github-actions)  
 :::
+
+### 次のステップ
+
 
 ## 環境変数
 ### 最低限設定しておかなければいけない環境変数
