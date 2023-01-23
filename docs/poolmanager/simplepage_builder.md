@@ -32,7 +32,7 @@ slug: /simple-pages-builder
 ### 2. 環境変数を設定する
 「Settings」タブを開き、サイドバーにある「Secrets and variables」の中の「Actions」をクリックする。  
 
-![Github_Actions_1](/img/poolmanager/github_Actions_1.png)  
+![Github_Actions_1](/img/poolmanager/github_actions_1.png)  
 
 「New repository secret」をクリックし、以下の表と写真を参考に環境変数をそれそれ設定してください。  
 
@@ -41,24 +41,24 @@ slug: /simple-pages-builder
 |  必須  |  POOL_ID  | 「pool...」で始まるプールID  |
 |  必須  |  EX_METADATA  | プール拡張メタデータのURLパス  |
 
-![Github_Actions_3](/img/poolmanager/github_Actions_3.png)  
+![Github_Actions_3](/img/poolmanager/github_actions_3.png)  
 
 ### 3. サイトをビルドして公開する
 環境変数の設定ができたら、Settings からサイドバーの「Pages」を選択し「Source」を「Github Actions」に変更します。
 
-![Github_Actions_4](/img/poolmanager/github_Actions_5.png)  
+![Github_Actions_4](/img/poolmanager/github_actions_5.png)  
 
 「Actions」タブに移動し、左サイドバーにある「Deploy Next.js site to Pages」を選択します。  
 「Run Workflow」を開き、緑色の「Run workflow」をクリックするとサイト構築が開始されます。
 
-![Github_Actions_5](/img/poolmanager/github_Actions_4.png)  
+![Github_Actions_5](/img/poolmanager/github_actions_4.png)  
 
 ビルド中はWorkflow名の左側のステータスが黄色く点滅します。  
 ビルドに成功するとステータスが緑色のチェックマークに変わります。
 
 成功のステータスを確認できたら作業は以上です。お疲れ様でした！
 
-![Github_Actions_6](/img/poolmanager/github_Actions_6.png)  
+![Github_Actions_6](/img/poolmanager/github_actions_6.png)  
 
 :::tip サイトが構築される仕組み
 ForkしたSPBのリポジトリには Github Actions の Workflow というものが設定されています。  
